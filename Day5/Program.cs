@@ -6,7 +6,8 @@
         {
             FindMinimum findMinimum = new FindMinimum();
             //findMinimum.MinFind(50,30,20);
-            findMinimum.MinFindDouble(50.03, 30.25, 200.65);
+            //findMinimum.MinFindDouble(50.03, 30.25, 200.65);
+            findMinimum.MinFindString("sagar","args","mainaa");
             /*   FindMinMax<int> findMinMax = new FindMinMax<int>();
                FindMinMax<double> findMax = new FindMinMax<double>();
                FindMinMax<string> stringMax = new FindMinMax<string>();
