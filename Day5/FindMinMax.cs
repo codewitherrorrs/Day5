@@ -32,7 +32,7 @@ namespace Day5
             }
             else if (thirdValue.CompareTo(firstValue) > 0 && thirdValue.CompareTo(secondValue) > 0)
             {
-                Console.WriteLine($"Third is gretaer : {thirdValue}");
+                Console.WriteLine($"Third is greater : {thirdValue}");
             }
             else
             {

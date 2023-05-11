@@ -4,31 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            //Delete Int array element.
-            DeleteElement deleteElement = new DeleteElement();
-            int[] arr = { 10, 20, 30, 40 };
-            Console.WriteLine("Original Array : ");
-            foreach(int i in arr)
-            {
-                Console.Write($"{i} ");
-            }
-            Console.WriteLine("\nEnter the position : ");
-            int position = int.Parse(Console.ReadLine());
-            deleteElement.DeleteInt(arr,position);
-          
-            //For Char Dlelete.
-            Console.WriteLine("Enter the string :");
-            string value = Console.ReadLine();
-            char[] arrOne = value.ToCharArray();
-            Console.WriteLine("Original Array : ");
-            foreach (char ch in arrOne)
-            {
-                Console.Write($"{ch} ");
-            }
-            Console.WriteLine("\nEnter the position : ");
-            int positionOne = int.Parse(Console.ReadLine());
-            deleteElement.DeleteChar(arrOne, positionOne);
-            /*    FindMinMax<int> findMinMax = new FindMinMax<int>();
+            FindMinimum findMinimum = new FindMinimum();
+            findMinimum.MinFind(50,30,20);
+             /*   FindMinMax<int> findMinMax = new FindMinMax<int>();
                 FindMinMax<double> findMax = new FindMinMax<double>();
                 FindMinMax<string> stringMax = new FindMinMax<string>();
                 //Max With Second Number.
